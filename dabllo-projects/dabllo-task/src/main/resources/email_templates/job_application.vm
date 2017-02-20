@@ -1,0 +1,19 @@
+<div>
+  <div>
+    <img src="http://transkip.com/images/transkip.png" alt="transkip.com" title="transkip.com" />
+  </div>
+
+  <div>
+    <p>您好，</p>
+    <p>Transkip.com上有人向您的的招聘招聘投递了简历，您可以在简历页面上查看简历列表：</p>
+    <p><a href="http://transkip.com/job/application?jobId=$job.id&authCode=$job.authCode">简历列表页面</a></p>
+  </div>
+
+  <div>
+    <p>
+      --<br />
+      Translation Resource Service － 翻译资源服务<br />
+      Transkip.com
+    <p>
+  </div>
+</div>

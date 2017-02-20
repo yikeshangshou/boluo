@@ -1,0 +1,27 @@
+<div>
+  <div>
+    <img src="http://transkip.com/images/transkip.png" alt="transkip.com" title="transkip.com" />
+  </div>
+
+  <div>
+    <p>亲爱的译员朋友，</p>
+    <p>你好，下面是Transkip.com平台上最新更新的与你匹配的翻译工作列表。</p>
+    <table>
+      <tbody>
+      #foreach($job in $jobs)
+        <tr>
+          <td style="font:13px arial;color: #555;"><a href="http://transkip.com/job/$job.id">$job.name</a></td>
+        </tr>
+      #end
+      </tbody>
+    </table>
+  </div>
+
+  <div>
+    <p>
+      --<br />
+      Translation Resource Service － 翻译资源服务<br />
+      Transkip.com
+    <p>
+  </div>
+</div>

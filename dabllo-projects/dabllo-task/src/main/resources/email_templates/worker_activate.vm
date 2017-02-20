@@ -1,0 +1,19 @@
+<div>
+  <div>
+    <img src="http://transkip.com/images/transkip.png" alt="transkip.com" title="transkip.com" />
+  </div>
+
+  <div>
+    <p>$username，</p>
+    <p>您好，感谢您注册成为Transkip.com译员，请点击以下链接激活您的用户。<a href="http://transkip.com/worker/activate?email=$email&authCode=$authCode">激活用户</a></p>
+    <p>如果您访问链接遇到问题，请尝试将下面的URL复制到浏览器中，然后敲击回车打开。<br />http://transkip.com/worker/activate?email=$email&authCode=$authCode</p>
+  </div>
+
+  <div>
+    <p>
+      --<br />
+      Translation Resource Service － 翻译资源服务<br />
+      Transkip.com
+    <p>
+  </div>
+</div>

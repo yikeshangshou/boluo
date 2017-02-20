@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/templates">
+  <excludes>
+    <pattern>/css/*</pattern>
+    <pattern>/images/*</pattern>
+    <pattern>/js/*</pattern>
+    <pattern>/libs/*</pattern>
+    <pattern>/favicon.ico</pattern>
+    <pattern>/wb_44feb95016e15ee2.txt</pattern>
+    <pattern>/google1321dc4dad1099b5.html</pattern>
+    <pattern>/page/result_ok</pattern>
+  </excludes>
+
+  <decorator name="template" page="template.jsp">
+    <pattern>/*</pattern>
+  </decorator>
+
+  <decorator name="template_simple" page="template_simple.jsp">
+    <pattern>/discussion/*</pattern>
+    <pattern>/item/*</pattern>
+    <pattern>/topic/*</pattern>
+    <pattern>/daily*</pattern>
+    <pattern>/page*</pattern>
+    <pattern>/</pattern>
+  </decorator>
+
+  <decorator name="template_admin" page="template_admin.jsp">
+    <pattern>/admin*</pattern>
+  </decorator>
+
+</decorators>

@@ -1,0 +1,28 @@
+<div>
+  <div>
+    <img src="http://transkip.com/images/transkip.png" alt="transkip.com" title="transkip.com" />
+  </div>
+
+  <div>
+    <p>亲爱的译员朋友，</p>
+    <p>您好，有一名翻译客户在翻译资源网上向您发出了一项工作邀请。如果您有兴趣，可以打开下面的链接查看该工作职位：</p>
+    <table>
+      <tbody>
+      #foreach($job in $jobs)
+        <tr>
+          <td style="font:13px arial;color: #555;"><a href="http://transkip.com/job/$job.id">$job.name</a></td>
+        </tr>
+      #end
+      </tbody>
+    </table>
+    <p>在工作职位页面上，您可以通过“申请这一份工作”的按钮向客户发出您的简历！</p>
+  </div>
+
+  <div>
+    <p>
+      --<br />
+      Translation Resource Service － 翻译资源服务<br />
+      Transkip.com
+    <p>
+  </div>
+</div>
