@@ -2,10 +2,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.boluo</groupId>
-  <artifactId>boluo</artifactId>
+  <artifactId>boluo-projects</artifactId>
   <version>1.0.0</version>
   <packaging>pom</packaging>
-  <name>Boluo</name>
+  <name>Boluo :: Projects</name>
 
   <properties>
     <java.version>1.6</java.version>
@@ -13,7 +13,9 @@
   </properties>
 
   <modules>
-    <module>boluo-core</module>
+    <module>boluo-crawler</module>
+    <module>boluo-task</module>
+    <module>boluo-web</module>
   </modules>
 
   <build>
@@ -77,6 +79,11 @@
         <version>1.5.4</version>
       </dependency>
       <dependency>
+        <groupId>com.boluo</groupId>
+        <artifactId>boluo-core</artifactId>
+        <version>1.0.0</version>
+      </dependency>
+      <dependency>
         <groupId>commons-beanutils</groupId>
         <artifactId>commons-beanutils</artifactId>
         <version>1.8.3</version>
@@ -102,9 +109,9 @@
         <version>1.2</version>
       </dependency>
       <dependency>
-        <groupId>commons-io</groupId>
-        <artifactId>commons-io</artifactId>
-        <version>2.5</version>
+        <groupId>cn.jpush.api</groupId>
+        <artifactId>jpush-client</artifactId>
+        <version>3.2.9</version>
       </dependency>
       <dependency>
         <groupId>commons-lang</groupId>
@@ -115,11 +122,6 @@
         <groupId>commons-logging</groupId>
         <artifactId>commons-logging</artifactId>
         <version>1.1.1</version>
-      </dependency>
-      <dependency>
-        <groupId>com.boluo</groupId>
-        <artifactId>dabllo-core</artifactId>
-        <version>1.0.0</version>
       </dependency>
       <dependency>
         <groupId>com.google.code.gson</groupId>
@@ -138,9 +140,19 @@
         <scope>provided</scope>
       </dependency>
       <dependency>
+        <groupId>io.leopard.thirdparty</groupId>
+        <artifactId>jcaptcha-core</artifactId>
+        <version>2.0.0</version>
+      </dependency>
+      <dependency>
         <groupId>org.slf4j</groupId>
         <artifactId>jcl-over-slf4j</artifactId>
         <version>1.6.6</version>
+      </dependency>
+      <dependency>
+        <groupId>com.sun.jersey.contribs</groupId>
+        <artifactId>jersey-multipart</artifactId>
+        <version>1.18</version>
       </dependency>
       <dependency>
         <groupId>com.sun.jersey.contribs</groupId>
@@ -168,16 +180,6 @@
             <groupId>org.springframework</groupId>
           </exclusion>
         </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>com.sun.jersey.contribs</groupId>
-        <artifactId>jersey-multipart</artifactId>
-        <version>1.18</version>
-      </dependency>
-      <dependency>
-        <groupId>cn.jpush.api</groupId>
-        <artifactId>jpush-client</artifactId>
-        <version>3.2.9</version>
       </dependency>
       <dependency>
         <groupId>org.jsoup</groupId>
